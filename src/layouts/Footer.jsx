@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Footer() {
     return (
         <>
@@ -36,16 +38,16 @@ export default function Footer() {
                         <div className={"col-lg-2 mb-2"}>
                             <h6 className={"text-uppercase fw-bold mb-4"}>Products</h6>
                             <p>
-                                <a href={"/"} className={"text-reset"}>Home Page</a>
+                                <Link to={"/"} className={"text-reset"}>Home Page</Link>
                             </p>
                             <p>
-                                <a href={"/about"} className={"text-reset"}>About Page</a>
+                                <Link to={"/about"} className={"text-reset"}>About Page</Link>
                             </p>
                             <p>
-                                <a href={"/contact"} className={"text-reset"}>Contact Page</a>
+                                <Link to={"/contact"} className={"text-reset"}>Contact Page</Link>
                             </p>
                             <p>
-                                <a href={"/services"} className={"text-reset"}>Services</a>
+                                <Link to={"/services"} className={"text-reset"}>Services</Link>
                             </p>
                         </div>
                         <div className={"col-lg-2 mb-2"}>
