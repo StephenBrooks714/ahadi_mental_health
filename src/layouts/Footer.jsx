@@ -66,16 +66,16 @@ export default function Footer() {
                         <div className={"col-lg-4 mb-2"}>
                             <h6 className={"text-uppercase fw-bold mb-4"}>Contact</h6>
                             <p>
-                                <i className={"fas fa-home me-3"} /> New York, NY 10012, US
+                                <i className={"fas fa-home me-3"} /> Dar es Salaam 14112
                             </p>
                             <p>
-                                <i className={"fas fa-envelope me-3"} /> 6sBqg@example.com
+                                <i className={"fas fa-envelope me-3"} /> ahadi@tahmef.org
                             </p>
                             <p>
                                 <i className={"fas fa-phone me-3"} /> + 01 234 567 88
                             </p>
                             <p>
-                                <i className={"fas fa-print me-3"} /> + 01 234 567 89
+                                <i className={"fas fa-print me-3"} /> 0692 773 854
                             </p>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ export default function Footer() {
                     className={"text-center p-4"}
                     style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
                 >
-                    © 2021 Copyright: <a className={"text-reset fw-bold"} href={"https://ahadimentalhealth.io/"}>
+                    © 2024 Copyright: <a className={"text-reset fw-bold"} href={"https://ahadimentalhealth.io/"}>
                         https://ahadimentalhealth.io/
                     </a>
                 </div>
