@@ -39,6 +39,7 @@ export default function HomeIntro() {
                             mental health support through a combination of innovative technology and compassionate
                             human interaction. Our team of experienced counselors and mental health professionals
                             are dedicated to helping you navigate life's challenges with compassion and expertise.
+                            <br/> <br/> 
                             At AHADI, we believe that everyone deserves access to mental health support, anytime,
                             anywhere. We work to provide inclusive, culturally competent and accessible mental
                             wellness solutions to empower Africans to thrive. Our goal is to bridge the gap between
