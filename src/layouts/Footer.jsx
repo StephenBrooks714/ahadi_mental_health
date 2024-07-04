@@ -27,26 +27,25 @@ export default function Footer() {
                         <div className={"col-lg-4 mb-1"}>
                             <h6 className={"text-uppercase fw-bold mb-4"}>
                                 <i className={"fas fa-gem me-3"} />
-                                Company name
+                                Ahadi App
                             </h6>
                             <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
+                               As the first digital mental healthcare facility in Tanzania, AHADI is proud to lead the way in providing confidential and culturally relevant support.
                             </p>
                         </div>
                         <div className={"col-lg-2 mb-2"}>
                             <h6 className={"text-uppercase fw-bold mb-4"}>Products</h6>
                             <p>
-                                <a href={"#!"} className={"text-reset"}>Angular</a>
+                                <a href={"/"} className={"text-reset"}>Home Page</a>
                             </p>
                             <p>
-                                <a href={"#!"} className={"text-reset"}>React</a>
+                                <a href={"/about"} className={"text-reset"}>About Page</a>
                             </p>
                             <p>
-                                <a href={"#!"} className={"text-reset"}>Vue</a>
+                                <a href={"/contact"} className={"text-reset"}>Contact Page</a>
                             </p>
                             <p>
-                                <a href={"#!"} className={"text-reset"}>Laravel</a>
+                                <a href={"/services"} className={"text-reset"}>Services</a>
                             </p>
                         </div>
                         <div className={"col-lg-2 mb-2"}>
@@ -61,7 +60,7 @@ export default function Footer() {
                                 <a href={"#!"} className={"text-reset"}>Orders</a>
                             </p>
                             <p>
-                                <a href={"#!"} className={"text-reset"}>Help</a>
+                                <a href={"#!"} className={"text-reset"}>Support</a>
                             </p>
                         </div>
                         <div className={"col-lg-4 mb-2"}>
