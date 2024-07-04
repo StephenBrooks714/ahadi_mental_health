@@ -1,0 +1,85 @@
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+.card p {
+  margin-bottom: 0.5rem;
+}
+
+.light-blue {
+  background: rgba(0, 0, 255, 0.8);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #f4f4f4;
+}
+.light-blue h3 {
+  margin-bottom: 0.5rem;
+}
+.light-blue p {
+  margin-bottom: 0.5rem;
+}
+
+.home-banner {
+  background: rgba(0, 0, 255, 0.8);
+  padding: 1.4rem 1.3rem;
+  margin-bottom: 1rem;
+  color: #f4f4f4;
+}
+.home-banner .home-banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-banner .home-banner__content .home-banner__title {
+  font-size: 1.9rem;
+  margin-bottom: 0.5rem;
+}
+.home-banner .home-banner__content .home-banner__text {
+  margin-bottom: 0.5rem;
+}
+.home-banner .icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#close {
+  float: right;
+  cursor: pointer;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem;
+  text-align: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 244);
+  background-color: rgba(0, 0, 244, 0.8);
+  color: white;
+}
+.modal p {
+  padding-top: 35px;
+}
+
+/*# sourceMappingURL=cards.css.map */

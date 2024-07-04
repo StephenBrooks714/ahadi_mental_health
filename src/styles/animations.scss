@@ -1,0 +1,32 @@
+.fadeInRight {
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    @keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+.fadeOutRight {
+    animation-name: fadeOutRight;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    @keyframes fadeOutRight {
+        0% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        100% {
+            opacity: 0;
+            transform: translateX(20px);
+        }
+    }
+}
